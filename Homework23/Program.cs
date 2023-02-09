@@ -4,6 +4,7 @@
 // 5 -> 1, 8, 27, 64, 125
 Console.Clear();
 Console.Write("Введите число: "); int n = int.Parse(Console.ReadLine()!);
+Console.Write("Таблица кубов данного числа:");
 for (int i=1; i<=n; i++)
 {
     Console.Write($" {Math.Pow(i,3)},");
